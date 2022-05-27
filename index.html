@@ -10,12 +10,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="3DStyle.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <script src="https://kit.fontawesome.com/7e33f7f86b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <div class="container-cover">
         <!--Bootstrap Format Start-->
-        <div class="row header">
+        <div class="row">
             <div class="col-md-2 ml-sm-auto">
                 <div class="sidebar">
                     <div class="logo">
@@ -34,21 +35,38 @@
                     <div class="col-md-12 ml-md-n2 mr-md-3">
                         <div class="content">
                             <div class="row">
-                            <div class="header header-fixed-top">
-                                <div class="header-content">
-                                    <h2>Explore 3D-Models</h2>
-                                    <h1>A PATH TO WEB 3.0</h1>
+                                <div class="header headPhoto header-fixed-top">
+                                    <div class="header-content">
+                                        <h2>Explore 3D-Models</h2>
+                                        <h1>A PATH TO WEB 3.0</h1>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                            <div class="listScroll">     
+                            <div class="row searchbuttons">
+                                <div class="padding-0">
+                                    <form method="GET" style="margin-top: 20px; margin-left:0px; width:40%;">
+                                        <input type='text' class="searchbar icon-foo" name='searched-value' 
+                                            placeholder= " &#xF002; Search"> 
+                                        <input class="button" type="submit" value='Search' hidden>
+                                        <!-- &#xF002; -->
+                                    </form>
+                                </div>
+                                <!-- <div class="col-md-5">&nbsp;</div> -->
+                                <div class="ButtonDiv">
+                                    <div class="d-flex flex-row GLbutton" >
+                                        <div><button class="btn list"><i class="fas fa-bars fa-sm"></i></button></div>
+                                        <div><button class="btn gridIcon"><i class="fas fa-th fa-sm"></i></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-list listScroll">     
                                 <a href="Load3D.html">
                                     <div class="listItem">
                                         <div class="listTitle">
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -58,7 +76,7 @@
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -68,7 +86,7 @@
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -78,7 +96,7 @@
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -88,7 +106,7 @@
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -98,7 +116,7 @@
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -108,7 +126,7 @@
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -118,7 +136,7 @@
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -128,7 +146,7 @@
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -138,7 +156,47 @@
                                             Kellog's Corn Flakes
                                         </div>
                                         <div class="chevron">
-                                            <i class="fas fa-chevron-right fa-s"></i>
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="Load3D.html">
+                                    <div class="listItem">
+                                        <div class="listTitle">
+                                            Kellog's Corn Flakes
+                                        </div>
+                                        <div class="chevron">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="Load3D.html">
+                                    <div class="listItem">
+                                        <div class="listTitle">
+                                            Kellog's Corn Flakes
+                                        </div>
+                                        <div class="chevron">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="Load3D.html">
+                                    <div class="listItem">
+                                        <div class="listTitle">
+                                            Kellog's Corn Flakes
+                                        </div>
+                                        <div class="chevron">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="Load3D.html">
+                                    <div class="listItem">
+                                        <div class="listTitle">
+                                            Kellog's Corn Flakes
+                                        </div>
+                                        <div class="chevron">
+                                            <i class="fas fa-chevron-right"></i>
                                         </div>
                                     </div>
                                 </a>

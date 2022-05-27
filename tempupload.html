@@ -23,27 +23,28 @@
             <br>
             <header>Upload Your 3D Model</header>
             <div class="formDiv">
-                <div id="browse">
+                <!-- <div id="browse">
                     <i class="fas fa-cloud-upload-alt"></i>
-                </div>
+                </div> -->
                 <form method="" enctype="multipart/form-data" action="#">
                     <div class="row">
-                        <input type="file" class="file-input" name="document">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Browse File to Upload</p>
+                        <!-- <br> -->
+                        <input type="file" id="file-input" name="document" hidden/>
                     </div>
-                    <div class="row">&nbsp;</div>
+                    <!-- <div class="row">&nbsp;</div> -->
                     <div class="row">
-                        <button type="submit" script="text-align:center"><b>&nbsp;Upload&nbsp;</b></button>
+                        <button type="submit"><b>&nbsp;Upload&nbsp;</b></button>
                     </div>
                 </form>
-                <p>Browse File to Upload</p>
-                <br>
             </div>
             <section class="progress-area">
                 <li class="row">
                     <i class="fas fa-file-alt"></i>
                     <div class="content">
                         <div class="details">
-                            <span class="name"><a href="Load3D.html">UploadedFile.glb</a></span>
+                            <span class="name"><a href="Load3D.html">Kellogs.glb</a></span>
                         </div>
                     </div>
                 </li>

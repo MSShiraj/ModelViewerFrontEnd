@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #0b2549;
+    background-color: black;
     background-repeat:no-repeat;
     background-position: top center; 
     background-repeat: no-repeat;
@@ -30,10 +30,10 @@
 /* linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%,
     rgb(0, 0, 0, 0.5) 90%),  */
   button{
-    background-color:#fff;
-    color:#0088cc;
+    background-color:#363636;
+    color:white;
     border-radius: 25px;
-    border-color: #0088cc;
+    border-color: #343a40;
     border-width: 5px;
   }
 
@@ -47,13 +47,14 @@
     box-shadow: 0px 0px 10px #fff;
   }
 
+  
   .wrapper{
-    width: 430px;
+    width: 460px;
     padding: 30px;
-    /* background: #242424; */
-    background-image: linear-gradient(to bottom, #19b0f9, #0b2549);
+    background: #242424;
+    /* background-image: linear-gradient(to bottom, #19b0f9, #0b2549); */
     border-radius: 5px;
-    box-shadow: 0px 0px 30px lightblue;
+    /* box-shadow: 0px 0px 30px lightblue; */
    }
    .wrapper header{
     color: #fff;
@@ -63,7 +64,7 @@
    }
 
    .wrapper .formDiv{
-    height: 290px;
+    height: 167px;
     display: flex;
     margin: 30px 0;
     align-items: center;
@@ -72,15 +73,20 @@
     flex-direction: column;
     border-radius: 5px;
     border: 2px dashed #fff;
-    border-radius: 50px;
+    border-radius: 30px;
    }
 
+   form {
+    text-align: center;
+  }
    .formDiv{
-     align-items: left;
+     align-items: center;
      color: #fff;
    }
  
-
+   #file-input{
+     margin-top: 2vh;
+   }
    .formDiv :where(i, p){
     color: #fff;
   }
@@ -88,11 +94,11 @@
     font-size: 50px;
   }
   .formDiv p{
-    font-size: 16px;
+    font-size:larger;
     margin-top: 15px;
   }
   section .row{
-    background: #fff;
+    background: #363636;
     margin-bottom: 10px;
     list-style: none;
     padding: 15px 20px;
@@ -102,9 +108,12 @@
     justify-content: space-between;
   }
 
+  section .row a{
+    color: #fff;
+  }
     section .row i{
     font-size: 30px;
-    color: #19b0f9;
+    color: #fff;
     }
    section .details span{
     font-size: 14px;
@@ -153,4 +162,9 @@
     display: flex;
     margin-left: 15px;
     flex-direction: column;
+   }
+
+   p{
+     margin-bottom:1em ;
+     font-size: large;
    }
