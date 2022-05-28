@@ -147,7 +147,7 @@ div.content {
   .sidebar a:hover {
     text-align: center;
     float: none;
-    width: 10%;
+    width: auto;
   }
   .header{
     width: 100%;
